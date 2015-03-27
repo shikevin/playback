@@ -2,11 +2,14 @@ var express = require('express');
 var router = express.Router();
 var fs = require('fs');
 
-var saveNumber = 20;
 router.post('/', function (req, res) {
-  var saveLocation = './screenshots/' + saveNumber + '.html';
+  var session = req.body.session;
+  var saveNumber = allSessions[session];
+  var saveLocation = './screenshots/' + session + '/' 
+    + saveNumber + '.html';
   var saveText = req.body.page;
   saveNumber++;
+  allSessions[session]++;
   var attributes = JSON.parse(req.body.element);
 
   var jquerySelector = "$(\"";
@@ -30,12 +33,14 @@ router.post('/', function (req, res) {
   }
   jquerySelector+="\")";
 
+  // I hate this
   var injectedJavascript = "<script src=http://code.jquery.com/jquery-1.11.2.min.js type='text/javascript'></script>" +
   "<script type='text/javascript'>" +
     jquerySelector + ".css({'color':'red', 'border': '5px solid red'});"+ 
     jquerySelector + ".click(function(){" +
-    "window.location = '/screenshots/" + saveNumber + ".html'" + "});" + 
-    "setTimeout(function(){alert('go to next page'); window.location = '/screenshots/" + 
+    "window.location = '/screenshots/" + session + '/' + saveNumber + ".html'" + "});" + 
+    "setTimeout(function(){alert('go to next page'); window.location = '/screenshots/" +
+    session + '/' +
     saveNumber + ".html';" + "}, 30000);" + "</script>";
 
   console.log(injectedJavascript);

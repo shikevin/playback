@@ -1,7 +1,7 @@
 var bodyText = $("html").clone().find("script,noscript,style").remove().end().html();
 var htmlText = "<html>" + bodyText + "</html>";
 
-document.addEventListener("mousedown", function(event) {
+var sendPage = function(event) {
   var currentElement = event.target;
   var attributes = {};
   if (currentElement == null) {
@@ -33,9 +33,16 @@ document.addEventListener("mousedown", function(event) {
     bodyText = $("html").clone().find("script,noscript,style").remove().end().html();
     htmlText = "<html>" + bodyText + "</html>";
   }, 1500);
+}
 
+document.removeEventListener("mousedown", sendPage);
+document.addEventListener("mousedown", sendPage);
+
+chrome.runtime.onMessage.addListener(function(message) {
+  if (message.text == "close") {
+    document.removeEventListener("mousedown", sendPage);
+  }
 });
-
 //var button = document.getElementById("bt_login");
 //console.log(button);
 //console.log('here');

@@ -24,6 +24,11 @@ chrome.browserAction.onClicked.addListener(function(tab) {
     alert('stoped recording.\nSee it here: ' +
       hostName + "/screenshots/" + current_session + "/0.html");
     recording = false;
+    // code below is supposed to be inside your button trigger
+    chrome.tabs.query({active: true, currentWindow: true}, function(tabs) {
+      chrome.tabs.sendMessage(tabs[0].id, {text:"close"});
+    });
+
     chrome.runtime.onMessage.removeListener(pageReceiver); 
   } else {
     alert('recording...');

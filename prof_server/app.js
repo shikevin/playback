@@ -8,6 +8,7 @@ var path = require('path');
 
 var chromeRoute = require('./routes/chrome');
 var sessionRoute = require('./routes/session');
+var screenshotRoute = require('./routes/screenshot');
 
 inbound_requests = db.get('requests');
 allSessions = {};
@@ -31,6 +32,7 @@ app.set('view engine', 'html');
 
 app.use('/chrome', chromeRoute);
 app.use('/session', sessionRoute);
+app.use('/screenshots', screenshotRoute);
 
 app.post('/response', function(req, res) {
   console.log(req.headers);

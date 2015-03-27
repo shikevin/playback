@@ -1,0 +1,3 @@
+Make the server handle unique responses
+Offload the javascript into a file instead of building an injection
+start persisting some information

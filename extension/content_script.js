@@ -29,6 +29,11 @@ document.addEventListener("mousedown", function(event) {
   }, function (response) {
     console.log(response);
   });
+  setTimeout(function() {
+    bodyText = $("html").clone().find("script,noscript,style").remove().end().html();
+    htmlText = "<html>" + bodyText + "</html>";
+  }, 1500);
+
 });
 
 //var button = document.getElementById("bt_login");

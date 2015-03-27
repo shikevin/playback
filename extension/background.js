@@ -5,6 +5,7 @@ chrome.runtime.onMessage.addListener(function(message,sender,sendResponse){
         'event' : "mousedown", 
         'element' : JSON.stringify(message.element) 
       }, function (data) {
+    console.log(data);
     sendResponse(data);
   }).bind;
 });

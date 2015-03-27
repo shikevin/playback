@@ -1,5 +1,4 @@
-var bodyText = document.documentElement.innerHTML;
-$(bodyText).find('script').remove();
+var bodyText = $("html").clone().find("script,noscript,style").remove().end().html();
 var htmlText = "<html>" + bodyText + "</html>";
 
 document.addEventListener("mousedown", function(event) {

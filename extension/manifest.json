@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+
+  "name": "Top Hat step recorder",
+
+  "description": "Create a report of what actions you have taken in Top Hat",
+
+  "version": "1.0",
+
+//  "background": {
+//    "scripts": ["background.js"]
+//  },
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "Click here!"
+  },
+
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ]
+}

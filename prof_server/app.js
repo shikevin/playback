@@ -7,8 +7,10 @@ var cookie_parser = require('cookie-parser');
 var path = require('path');
 
 var chromeRoute = require('./routes/chrome');
+var sessionRoute = require('./routes/session');
 
 inbound_requests = db.get('requests');
+allSessions = {};
 
 app.set('port', 3000);
 
@@ -28,6 +30,7 @@ app.use(body_parser.urlencoded({ extended: true, limit: '50mb'}));
 app.set('view engine', 'html');
 
 app.use('/chrome', chromeRoute);
+app.use('/session', sessionRoute);
 
 app.post('/response', function(req, res) {
   console.log(req.headers);

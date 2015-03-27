@@ -17,6 +17,7 @@
     "mongoose": "^3.8.25",
     "mongoskin": "^1.4.12",
     "monk": "^0.9.1",
-    "forever": "~0.14.1"
+    "forever": "~0.14.1",
+    "short-id": "0.1.0-1"
   }
 }

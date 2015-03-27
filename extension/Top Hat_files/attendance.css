@@ -1,0 +1,250 @@
+/* LEFT MODULE CONTROL */
+
+.stop_attendance {
+  text-align: center;
+  margin-top: 10px;
+  height:100px;
+}
+
+.stop_attendance p {
+  font-size: 14px;
+  margin-top: 5px;
+  color:#bbc5ce;
+}
+
+.stop_attendance .code {
+  font-size: 96px;
+  line-height:96px;
+  display: block;
+
+}
+.stop_attendance .attend_right
+{
+  width:90px;
+  display:inline-block;
+  position:absolute;
+
+  right:20px;
+}
+
+.attend_right .attendance_percentage
+{
+  display:block;
+  font-size:30px;
+  line-height:60px;
+  font-weight:300;
+}
+
+.stop_attendance .attend_left
+{
+  width:150px;
+
+  position:absolute;
+  left:10px;
+}
+
+.stop_attendance .attendance-percent h2.attendance-per-title
+{
+  font-size:16px;
+}
+
+/** sidebar buttons **/
+.take_attendance .button, .stop_attendance .button {
+  cursor: pointer;
+}
+
+.magnify_attendance_sidebar.button
+{
+  display:block;
+  width:125px;
+  background:#bbc5ce;
+  color:#5c5c5c;
+    margin-left:auto;
+  margin-right:auto;
+  position:relative;
+
+}
+
+.magnify_attendance_sidebar.mag:before
+{
+  padding-right:10px;
+  position:absolute;
+  left:5px;
+  top:10px;
+}
+
+#attendance_control_panel .thm_panel_toolbar
+{
+  display:none;
+}
+
+#attendance_control_panel .button
+{
+  font-size:14px;
+}
+
+
+/* TUTORIAL */
+.attendance-tutorial {
+    font-family: lato, helvetica;
+    color: #4A4A4A;
+    padding: 40px;
+}
+
+.attendance-tutorial a.close {
+  color: #4A4A4A;
+  font-size: 16px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+}
+
+.attendance-tutorial .step .icon {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.attendance-tutorial .step.active .icon:before {
+
+  font-size: 64px;
+}
+
+
+.attendance-tutorial .header {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 45px;
+    font-weight: 300;
+}
+
+.attendance-tutorial p {
+  font-size: 16px;
+}
+
+.attendance-tutorial .n-btn {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  clear: both;
+  display: block;
+}
+
+.attendance-tutorial .progress-bar-container {
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  margin-top: 40px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px; /* border radius */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /* prevents bg color from leaking outside the border */
+  background-color: #a5b0bb; /* layer fill content + color overlay */
+  width: 400px;
+  height: 15px;
+  display:block;
+}
+
+.attendance-tutorial .progress-bar-fill {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px; /* border radius */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /* prevents bg color from leaking outside the border */
+  background-color: #5db92b; /* layer fill content + color overlay */
+  width: 100px;
+  height: 15px;
+  display:block;
+}
+
+/* Mini View */
+.attendance_miniview {
+  position: fixed;
+  right: 20px;
+  bottom: 50px;
+  background: white;
+  font-family: lato, helvetica;
+  text-align: center;
+  font-weight: 300;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  border: 1px solid #dddddd;
+  -webkit-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.5);
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px; /* border radius */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /* prevents bg color from leaking outside the border */
+}
+
+.attendance_mini_view_panel span {
+  line-height: 1em;
+}
+
+.attendance_mini_view_panel h2 {
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.attendance_mini_view_panel p {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+.attendance_mini_view_panel .attendance-sms-help
+{
+  margin-top:10px;
+}
+.attendance_mini_view_panel .sms_4_digit {
+  font-size: 30px;
+}
+
+.attendance_mini_view_panel .attendance_code {
+  font-size: 100px;
+ line-height:100px;
+  color:#ef5227;
+}
+
+.attendance_mini_view_panel .phone_number {
+  font-size: 16px;
+
+}
+
+/* Student View */
+.failed_attendance {
+  width: 550px;
+  border:none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px; /* border radius */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /* prevents bg color from leaking outside the border */
+  background: #f5834b; /* layer fill content */
+
+  color:#ffffff;
+  font-family:lato;
+  font-weight:300;
+
+  padding: 20px;
+  font-size: 1.2em;
+  margin: 3px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.failed_attendance_center {
+  text-align: center;
+}
+
+/* STUDENT CONTENT AREA */
+#attendance_form {
+  padding: 8px;
+}

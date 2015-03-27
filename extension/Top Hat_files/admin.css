@@ -1,0 +1,103 @@
+/* @override http://localhost:8000/media/css/adminface/admin.css */
+
+#adminface_demo_editor_elem_dialog  .thm_internal_panel .thm_panel_toolbar select {
+	width: 160px !important;
+}
+#user_timeline td:first-child {
+	border: 1px solid #fff;
+	border-top: none;
+	border-left: none;
+}
+#user_timeline td:last-child {
+	border: 1px solid #fff;
+	border-top: none;
+	border-right: none;
+}
+
+#user_timeline td.response {
+	background: #c2eefa;
+	border-color:#65dafa;
+}
+#user_timeline td.item_status {
+	background: #eefac2;
+	border-color:#9fc025;
+}
+#user_timeline td.sms {
+	background: #c2fad4;
+	border-color:#9fc025;
+}
+#user_timeline td.enter_course {
+	background: #e4c2fa;
+	border-color: #ad37fa;
+}
+#user_timeline td.logout {
+	background: #e4c2fa;
+	border-color:#ad37fa;
+}
+#user_timeline td.exception {
+	background: #fa0000;
+	border-color:#a40002;
+}
+#user_timeline td.register {
+	background: #50ff88;
+	border-color:#33a457;
+}
+#user_timeline td {
+	padding: 4px 8px;
+	width: 50%;
+	font-size: 12px;
+}
+#user_timeline td span.action {
+	display: none;
+}
+#user_timeline td span.message {
+
+}
+#user_timeline td span.created_at {
+	display: block;
+	font-size: 10px;
+	padding-top: 2px;
+	text-align: right;
+}
+#user_timeline thead th {
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+	padding: 5px 0;
+	background: brown;
+	color: #fff;
+}
+#user_timeline table {
+	margin-top: 10px;
+}
+#user_timeline .thm_panel_body {
+	padding-top: 10px;
+}
+
+.duplitron {
+	padding: 8px;
+}
+
+.duplitron li.tree_row div.selectable {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.duplitron .invalid {
+	border: 2px inset red;
+	background-color: #FCC;
+}
+
+.duplitron .course_copy {
+	max-width: 410px;
+}
+
+.duplitron .course_copy p {
+	border-bottom: 1px solid #B8C3C9;
+	padding-bottom: 5px;
+	margin-top: 2px;
+}
+
+.duplitron .course_copy input {
+	float: right;
+}

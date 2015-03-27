@@ -1,0 +1,2502 @@
+/*
+STOP! Are you inspecting this CSS?
+Don't edit this file!
+It is a compiled collection of several source files.
+Figure out which source file you're looking for, edit that, and recompile!
+
+To compile, run `compass compile` or `compass watch` from the THM root
+*/
+/* line 5, ../src/_notifications.scss */
+#region-navbar {
+  background-color: #1f252a;
+  height: 76px;
+}
+
+/* line 10, ../src/_notifications.scss */
+.navbar-header:before, .navbar-header:after {
+  content: normal;
+  display: block;
+}
+
+/* line 15, ../src/_notifications.scss */
+header {
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #5c5c5c;
+  overflow: visible;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+}
+/* line 24, ../src/_notifications.scss */
+header .nav > li > a {
+  padding: 7.5px 0;
+}
+/* line 28, ../src/_notifications.scss */
+header > .navbar {
+  width: 100%;
+  min-width: 690px;
+  z-index: 10;
+  border-bottom: 0;
+}
+/* line 35, ../src/_notifications.scss */
+header .navbar-item-region {
+  margin: 20px 18px;
+  float: left;
+}
+@media (max-width: 768px) {
+  /* line 42, ../src/_notifications.scss */
+  header .navbar-nav > li, header .navbar-nav {
+    float: left !important;
+  }
+  /* line 46, ../src/_notifications.scss */
+  header .navbar-right {
+    float: right !important;
+  }
+}
+@media (max-width: 1021px) {
+  /* line 52, ../src/_notifications.scss */
+  header .nav.navbar-nav.navbar-right {
+    display: none;
+  }
+}
+@media (max-width: 836px) {
+  /* line 57, ../src/_notifications.scss */
+  header .navbar-item-region {
+    display: none;
+  }
+}
+/* line 61, ../src/_notifications.scss */
+header .select2-container .select2-choice .select2-arrow b[role=presentation] {
+  background-image: none !important;
+  border-radius: 0 !important;
+}
+
+/* line 68, ../src/_notifications.scss */
+.navbar-header .navbar-brand {
+  margin-top: -1px;
+  padding: 15px 15px 15px 0;
+}
+/* line 69, ../src/_notifications.scss */
+.navbar-header .navbar-brand:hover {
+  color: white;
+}
+/* line 76, ../src/_notifications.scss */
+.navbar-header .navbar-brand.navbar-back .icon.logo {
+  position: relative;
+  top: 3px;
+  left: 3px;
+}
+/* line 83, ../src/_notifications.scss */
+.navbar-header .navbar-brand .icon.logo {
+  position: relative;
+  top: 3px;
+  left: 14px;
+}
+
+/* line 92, ../src/_notifications.scss */
+.navbar-right .btn.navbar-btn {
+  margin-top: 9px;
+}
+
+/* line 97, ../src/_notifications.scss */
+#ncentre {
+  font-size: 20px;
+  color: #a5b1bb;
+  cursor: pointer;
+  line-height: 70px;
+}
+/* line 102, ../src/_notifications.scss */
+#ncentre:hover {
+  color: white;
+}
+
+/* line 107, ../src/_notifications.scss */
+.qtip-notifs .qtip-content {
+  margin-top: 6px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+/* line 113, ../src/_notifications.scss */
+.ncentreicon {
+  position: relative;
+  top: 4px;
+}
+
+/* line 118, ../src/_notifications.scss */
+.notifcount {
+  display: none;
+  background-color: #22bba6;
+  text-align: center;
+  font-size: 9pt;
+  font-family: Lato;
+  padding: 2px 6px 2px 6px;
+  position: relative;
+  border-radius: 4px;
+  bottom: 1px;
+  color: white;
+  margin-right: 5px;
+  padding-right: 6px;
+}
+
+/* line 133, ../src/_notifications.scss */
+.ncentre-node {
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 10px;
+  background-color: whitesmoke;
+  margin-bottom: 6px;
+  cursor: pointer;
+  min-height: 60px;
+}
+
+/* line 144, ../src/_notifications.scss */
+.empty-notifs {
+  font-family: Lato;
+  font-size: 10pt;
+  padding: 30px;
+  text-align: center;
+  width: 245px;
+  line-height: 2;
+  height: 60px;
+  box-sizing: content-box;
+}
+
+/* line 155, ../src/_notifications.scss */
+.close-notif-node {
+  position: relative;
+  top: -6px;
+  right: -4px;
+  float: right;
+  font-size: 12pt;
+  font-family: Lato;
+  color: #8c8c8c;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+/* line 168, ../src/_notifications.scss */
+.close-notif-node:hover {
+  color: #5c5c5c;
+}
+
+/* line 172, ../src/_notifications.scss */
+.ncentre-node:hover {
+  background-color: #eeeeee;
+}
+
+/* line 176, ../src/_notifications.scss */
+.ncentre-node .content {
+  font-size: 10pt;
+  line-height: normal;
+  font-family: Lato;
+  position: relative;
+  height: 60px;
+  display: table-cell;
+  vertical-align: middle;
+  font-weight: 300;
+  padding-right: 5px;
+  padding-left: 8px;
+}
+
+/* line 189, ../src/_notifications.scss */
+.ncentre-node a {
+  text-decoration: none;
+  color: #333333;
+  cursor: pointer;
+}
+
+/* line 195, ../src/_notifications.scss */
+.ncentre-node .image {
+  float: left;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  height: 58px;
+  width: 58px;
+  background-color: #22bba6;
+  font-size: 32pt;
+  text-align: center;
+  line-height: 66px;
+  color: white;
+}
+
+/* line 212, ../src/_notifications.scss */
+#nps2 {
+  max-height: 130px;
+  overflow-y: hidden;
+}
+
+/* line 217, ../src/_notifications.scss */
+.nps-bar {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 130px;
+  background-color: #22bba6;
+  color: #EEE;
+  text-align: center;
+  font-size: 14pt;
+  font-weight: 300;
+  font-family: Lato;
+}
+
+/* line 230, ../src/_notifications.scss */
+.topbarnotif {
+  width: 100%;
+  height: 130px;
+  background-color: #22bba6;
+  color: #EEE;
+  text-align: center;
+  font-size: 14pt;
+  font-weight: 300;
+  font-family: Lato;
+  display: table;
+}
+
+/* line 242, ../src/_notifications.scss */
+.topbarnotif .content {
+  display: table-cell;
+  vertical-align: middle;
+  padding-left: 20px;
+  width: 100%;
+}
+
+/* line 249, ../src/_notifications.scss */
+.topbarnotif .content a {
+  text-decoration: none;
+  color: #EEE;
+}
+
+/* line 254, ../src/_notifications.scss */
+#wrapper.nps-active, #region-content.nps-active, #region-menu.nps-active {
+  top: 136px;
+}
+
+/* line 258, ../src/_notifications.scss */
+.nps-nodes {
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 5px;
+  max-width: 900px;
+}
+
+/* line 265, ../src/_notifications.scss */
+.nps-node {
+  display: inline-block;
+  margin: 2px;
+  width: 6%;
+  height: 20px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #1f9d8c;
+  cursor: pointer;
+}
+
+/* line 277, ../src/_notifications.scss */
+.nps-node:hover {
+  background-color: #b5f1e9;
+}
+
+/* line 281, ../src/_notifications.scss */
+.nps-labels {
+  margin-top: -10px;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+/* line 287, ../src/_notifications.scss */
+.nps-label {
+  display: inline-block;
+  height: 20px;
+  font-size: 10pt;
+}
+
+/* line 293, ../src/_notifications.scss */
+.nps-label.nps-left {
+  float: left;
+  margin-top: 8px;
+  padding-left: 5%;
+}
+
+/* line 299, ../src/_notifications.scss */
+.nps-label.nps-right {
+  float: right;
+  margin-top: 8px;
+  padding-right: 5%;
+}
+
+/* line 305, ../src/_notifications.scss */
+.nps-label.nps-center {
+  position: relative;
+  top: 2px;
+  text-align: center;
+}
+
+/* line 311, ../src/_notifications.scss */
+.nps-bar .close-me {
+  float: right;
+  position: relative;
+  padding-right: 12px;
+  color: white;
+  text-decoration: none;
+}
+
+/* line 319, ../src/_notifications.scss */
+.topbarnotif .close-me {
+  float: right;
+  color: white;
+  text-decoration: none;
+  padding-right: 12px;
+  cursor: pointer;
+}
+
+/* line 327, ../src/_notifications.scss */
+button.close-me {
+  border: none;
+  background: transparent;
+}
+
+/* line 332, ../src/_notifications.scss */
+.nps-commentbox {
+  position: relative;
+  display: inline-block;
+  border-radius: 3px;
+  border: none;
+  height: 50px;
+  width: 900px;
+  margin: 0 auto;
+  font-size: 10pt;
+  font-family: Lato;
+  overflow: auto;
+  padding-left: 10px;
+  padding-top: 5px;
+  color: #595972;
+}
+
+/* line 348, ../src/_notifications.scss */
+#nps-commenterror {
+  border: 2px solid red;
+}
+
+/* line 351, ../src/_notifications.scss */
+#nps-commenterror::-webkit-input-placeholder {
+  color: red;
+}
+
+/* line 355, ../src/_notifications.scss */
+.nps-submit-comment, .nps-skip-comment {
+  position: relative;
+  height: auto;
+  width: auto;
+  text-align: center;
+  border-radius: 3px;
+  font-size: 8pt;
+  float: left;
+  padding: 5px 10px;
+  margin: 2px 10px 5px 0px;
+  color: #dedede;
+  margin-left: 12px;
+}
+
+/* line 369, ../src/_notifications.scss */
+.nps-submit-comment:hover, .nps-skip-comment:hover {
+  color: white;
+}
+
+/* line 373, ../src/_notifications.scss */
+.nps-submit-comment {
+  background-color: #007b69;
+}
+
+/* line 377, ../src/_notifications.scss */
+.nps-content {
+  font-family: Lato;
+  font-size: 12pt;
+  color: #dedede;
+}
+
+/* line 383, ../src/_notifications.scss */
+.dropdown .caret {
+  border-top-color: #a5b1bb;
+  border-bottom-color: #a5b1bb;
+}
+
+/* line 388, ../src/_notifications.scss */
+.course-list-container {
+  padding: 0;
+  margin: 20px;
+  margin-right: 0;
+}
+/* line 393, ../src/_notifications.scss */
+.course-list-container .course-list-dropdown {
+  font-size: 14px;
+  padding: 6px;
+  padding-top: 2px;
+  background-color: #384047;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  color: #a5b1bb;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 183px;
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  box-sizing: content-box;
+  height: 26px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  vertical-align: middle;
+  line-height: 15px;
+}
+/* line 416, ../src/_notifications.scss */
+.course-list-container .course-list-dropdown:hover {
+  color: white;
+}
+/* line 418, ../src/_notifications.scss */
+.course-list-container .course-list-dropdown:hover .caret {
+  border-top-color: white;
+  border-bottom-color: white;
+}
+/* line 424, ../src/_notifications.scss */
+.course-list-container .course-list-dropdown .caret {
+  top: 15px;
+  right: 5px;
+  display: inline-block;
+  position: absolute;
+}
+/* line 431, ../src/_notifications.scss */
+.course-list-container .course-list-dropdown .course-name-container {
+  position: relative;
+  top: 52%;
+  transform: translateY(-50%);
+  overflow: hidden;
+  max-height: 32px;
+}
+/* line 442, ../src/_notifications.scss */
+.course-list-container .dropdown-menu {
+  overflow-y: auto;
+  max-height: 12em;
+}
+
+/* line 449, ../src/_notifications.scss */
+.course-list-container .dropdown-menu, .account.dropdown .dropdown-menu {
+  overflow-y: auto;
+  max-height: 12em;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 457, ../src/_notifications.scss */
+.navbar-nav > li > .dropdown-menu {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+/* line 463, ../src/_notifications.scss */
+.account.dropdown .btn:hover {
+  color: white;
+}
+/* line 465, ../src/_notifications.scss */
+.account.dropdown .btn:hover .caret {
+  border-top-color: white;
+  border-bottom-color: white;
+}
+/* line 472, ../src/_notifications.scss */
+.account.dropdown .user-name-link {
+  font-size: 14px;
+}
+/* line 475, ../src/_notifications.scss */
+.account.dropdown .user-name-link .user-name {
+  display: inline-block;
+  max-width: 6vw;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* line 483, ../src/_notifications.scss */
+.account.dropdown .user-name-link .caret {
+  margin-top: -10px;
+}
+
+/* line 489, ../src/_notifications.scss */
+#course_search_container {
+  float: left;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+/* line 495, ../src/_notifications.scss */
+#notif {
+  height: 0px;
+  width: 0px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/*
+ * qTip2 - Pretty powerful tooltips - v2.0.1-65-
+ * http://qtip2.com
+ *
+ * Copyright (c) 2013 Craig Michael Thompson
+ * Released under the MIT, GPL licenses
+ * http://jquery.org/license
+ *
+ * Date: Sat Apr 6 2013 07:50 UTC+0000
+ * Plugins: tips modal viewport svg imagemap ie6
+ * Styles: basic css3
+ */
+/* line 13, ../src/_jquery.qtip.scss */
+.qtip {
+  position: absolute;
+  left: -28000px;
+  top: -28000px;
+  display: none;
+  max-width: 320px;
+  min-width: 50px;
+  font-size: 10.5px;
+  line-height: 12px;
+  direction: ltr;
+  box-shadow: none;
+  padding: 0;
+}
+
+/* line 31, ../src/_jquery.qtip.scss */
+.qtip-content {
+  position: relative;
+  padding: 5px 9px;
+  overflow: hidden;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+/* line 40, ../src/_jquery.qtip.scss */
+.qtip-titlebar {
+  position: relative;
+  padding: 5px 35px 5px 10px;
+  overflow: hidden;
+  border-width: 0 0 1px;
+  font-weight: bold;
+}
+
+/* line 49, ../src/_jquery.qtip.scss */
+.qtip-titlebar + .qtip-content {
+  border-top-width: 0 !important;
+}
+
+/* Default close button class */
+/* line 52, ../src/_jquery.qtip.scss */
+.qtip-close {
+  position: absolute;
+  right: -9px;
+  top: -9px;
+  cursor: pointer;
+  outline: medium none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+}
+
+/* line 64, ../src/_jquery.qtip.scss */
+.qtip-titlebar .qtip-close {
+  right: 4px;
+  top: 50%;
+  margin-top: -9px;
+}
+
+/* line 69, ../src/_jquery.qtip.scss */
+* html .qtip-titlebar .qtip-close {
+  top: 16px;
+}
+
+/* IE fix */
+/* line 71, ../src/_jquery.qtip.scss */
+.qtip-titlebar .ui-icon,
+.qtip-icon .ui-icon {
+  display: block;
+  text-indent: -1000em;
+  direction: ltr;
+}
+
+/* line 78, ../src/_jquery.qtip.scss */
+.qtip-icon, .qtip-icon .ui-icon {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+/* line 85, ../src/_jquery.qtip.scss */
+.qtip-icon .ui-icon {
+  width: 18px;
+  height: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-indent: 0;
+  font: normal bold 10px/13px Tahoma,sans-serif;
+  color: inherit;
+  background: transparent none no-repeat -100em -100em;
+}
+
+/* Applied to 'focused' tooltips e.g. most recently displayed/interacted with */
+/* Applied on hover of tooltips i.e. added/removed on mouseenter/mouseleave respectively */
+/* Default tooltip style */
+/* line 105, ../src/_jquery.qtip.scss */
+.qtip-default {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #F1D031;
+  background-color: #FFFFA3;
+  color: #555;
+}
+
+/* line 114, ../src/_jquery.qtip.scss */
+.qtip-default .qtip-titlebar {
+  background-color: #FFEF93;
+}
+
+/* line 118, ../src/_jquery.qtip.scss */
+.qtip-default .qtip-icon {
+  border-color: #CCC;
+  background: #F1F1F1;
+  color: #777;
+}
+
+/* line 124, ../src/_jquery.qtip.scss */
+.qtip-default .qtip-titlebar .qtip-close {
+  border-color: #AAA;
+  color: #111;
+}
+
+/*! Light tooltip style */
+/* line 132, ../src/_jquery.qtip.scss */
+.qtip-light {
+  background-color: white;
+  border-color: #E2E2E2;
+  color: #454545;
+}
+
+/* line 138, ../src/_jquery.qtip.scss */
+.qtip-light .qtip-titlebar {
+  background-color: #f1f1f1;
+}
+
+/*! Dark tooltip style */
+/* line 144, ../src/_jquery.qtip.scss */
+.qtip-dark {
+  background-color: #505050;
+  border-color: #303030;
+  color: #f3f3f3;
+}
+
+/* line 150, ../src/_jquery.qtip.scss */
+.qtip-dark .qtip-titlebar {
+  background-color: #404040;
+}
+
+/* line 154, ../src/_jquery.qtip.scss */
+.qtip-dark .qtip-icon {
+  border-color: #444;
+}
+
+/* line 158, ../src/_jquery.qtip.scss */
+.qtip-dark .qtip-titlebar .ui-state-hover {
+  border-color: #303030;
+}
+
+/*! Cream tooltip style */
+/* line 164, ../src/_jquery.qtip.scss */
+.qtip-cream {
+  background-color: #FBF7AA;
+  border-color: #F9E98E;
+  color: #A27D35;
+}
+
+/* line 170, ../src/_jquery.qtip.scss */
+.qtip-cream .qtip-titlebar {
+  background-color: #F0DE7D;
+}
+
+/* line 174, ../src/_jquery.qtip.scss */
+.qtip-cream .qtip-close .qtip-icon {
+  background-position: -82px 0;
+}
+
+/*! Red tooltip style */
+/* line 180, ../src/_jquery.qtip.scss */
+.qtip-red {
+  background-color: #F78B83;
+  border-color: #D95252;
+  color: #912323;
+}
+
+/* line 186, ../src/_jquery.qtip.scss */
+.qtip-red .qtip-titlebar {
+  background-color: #F06D65;
+}
+
+/* line 190, ../src/_jquery.qtip.scss */
+.qtip-red .qtip-close .qtip-icon {
+  background-position: -102px 0;
+}
+
+/* line 194, ../src/_jquery.qtip.scss */
+.qtip-red .qtip-icon {
+  border-color: #D95252;
+}
+
+/* line 198, ../src/_jquery.qtip.scss */
+.qtip-red .qtip-titlebar .ui-state-hover {
+  border-color: #D95252;
+}
+
+/*! Green tooltip style */
+/* line 204, ../src/_jquery.qtip.scss */
+.qtip-green {
+  background-color: #CAED9E;
+  border-color: #90D93F;
+  color: #3F6219;
+}
+
+/* line 210, ../src/_jquery.qtip.scss */
+.qtip-green .qtip-titlebar {
+  background-color: #B0DE78;
+}
+
+/* line 214, ../src/_jquery.qtip.scss */
+.qtip-green .qtip-close .qtip-icon {
+  background-position: -42px 0;
+}
+
+/*! Blue tooltip style */
+/* line 220, ../src/_jquery.qtip.scss */
+.qtip-blue {
+  background-color: #E5F6FE;
+  border-color: #ADD9ED;
+  color: #5E99BD;
+}
+
+/* line 226, ../src/_jquery.qtip.scss */
+.qtip-blue .qtip-titlebar {
+  background-color: #D0E9F5;
+}
+
+/* line 230, ../src/_jquery.qtip.scss */
+.qtip-blue .qtip-close .qtip-icon {
+  background-position: -2px 0;
+}
+
+/* line 236, ../src/_jquery.qtip.scss */
+.qtip-shadow {
+  -webkit-box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+/* Add rounded corners to your tooltips in: FF3+, Chrome 2+, Opera 10.6+, IE9+, Safari 2+ */
+/* line 243, ../src/_jquery.qtip.scss */
+.qtip-rounded,
+.qtip-tipsy,
+.qtip-bootstrap {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 251, ../src/_jquery.qtip.scss */
+.qtip-rounded .qtip-titlebar {
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+
+/* Youtube tooltip style */
+/* line 258, ../src/_jquery.qtip.scss */
+.qtip-youtube {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 0 3px #333;
+  -moz-box-shadow: 0 0 3px #333;
+  box-shadow: 0 0 3px #333;
+  color: white;
+  border-width: 0;
+  background: #4A4A4A;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #4A4A4A), color-stop(100%, black));
+  background-image: -webkit-linear-gradient(top, #4A4A4A 0, black 100%);
+  background-image: -moz-linear-gradient(top, #4A4A4A 0, black 100%);
+  background-image: -ms-linear-gradient(top, #4A4A4A 0, black 100%);
+  background-image: -o-linear-gradient(top, #4A4A4A 0, black 100%);
+}
+
+/* line 278, ../src/_jquery.qtip.scss */
+.qtip-youtube .qtip-titlebar {
+  background-color: #4A4A4A;
+  background-color: transparent;
+}
+
+/* line 283, ../src/_jquery.qtip.scss */
+.qtip-youtube .qtip-content {
+  padding: .75em;
+  font: 12px arial,sans-serif;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#4a4a4a,EndColorStr=#000000);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#4a4a4a,EndColorStr=#000000);";
+}
+
+/* line 291, ../src/_jquery.qtip.scss */
+.qtip-youtube .qtip-icon {
+  border-color: #222;
+}
+
+/* line 295, ../src/_jquery.qtip.scss */
+.qtip-youtube .qtip-titlebar .ui-state-hover {
+  border-color: #303030;
+}
+
+/* jQuery TOOLS Tooltip style */
+/* line 301, ../src/_jquery.qtip.scss */
+.qtip-jtools {
+  background: #232323;
+  background: rgba(0, 0, 0, 0.7);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#717171), to(#232323));
+  background-image: -moz-linear-gradient(top, #717171, #232323);
+  background-image: -webkit-linear-gradient(top, #717171, #232323);
+  background-image: -ms-linear-gradient(top, #717171, #232323);
+  background-image: -o-linear-gradient(top, #717171, #232323);
+  border: 2px solid #ddd;
+  border: 2px solid #f1f1f1;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 0 12px #333;
+  -moz-box-shadow: 0 0 12px #333;
+  box-shadow: 0 0 12px #333;
+}
+
+/* IE Specific */
+/* line 323, ../src/_jquery.qtip.scss */
+.qtip-jtools .qtip-titlebar {
+  background-color: transparent;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#717171,endColorstr=#4A4A4A);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#717171,endColorstr=#4A4A4A)";
+}
+
+/* line 328, ../src/_jquery.qtip.scss */
+.qtip-jtools .qtip-content {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4A4A4A,endColorstr=#232323);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#4A4A4A,endColorstr=#232323)";
+}
+
+/* line 333, ../src/_jquery.qtip.scss */
+.qtip-jtools .qtip-titlebar,
+.qtip-jtools .qtip-content {
+  background: transparent;
+  color: white;
+  border: 0 dashed transparent;
+}
+
+/* line 340, ../src/_jquery.qtip.scss */
+.qtip-jtools .qtip-icon {
+  border-color: #555;
+}
+
+/* line 344, ../src/_jquery.qtip.scss */
+.qtip-jtools .qtip-titlebar .ui-state-hover {
+  border-color: #333;
+}
+
+/* Cluetip style */
+/* line 350, ../src/_jquery.qtip.scss */
+.qtip-cluetip {
+  -webkit-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+  background-color: #D9D9C2;
+  color: #111;
+  border: 0 dashed transparent;
+}
+
+/* line 360, ../src/_jquery.qtip.scss */
+.qtip-cluetip .qtip-titlebar {
+  background-color: #87876A;
+  color: white;
+  border: 0 dashed transparent;
+}
+
+/* line 366, ../src/_jquery.qtip.scss */
+.qtip-cluetip .qtip-icon {
+  border-color: #808064;
+}
+
+/* line 370, ../src/_jquery.qtip.scss */
+.qtip-cluetip .qtip-titlebar .ui-state-hover {
+  border-color: #696952;
+  color: #696952;
+}
+
+/* Tipsy style */
+/* line 377, ../src/_jquery.qtip.scss */
+.qtip-tipsy {
+  background: black;
+  background: rgba(0, 0, 0, 0.87);
+  color: white;
+  border: 0 solid transparent;
+  font-size: 11px;
+  font-family: 'Lucida Grande', sans-serif;
+  font-weight: bold;
+  line-height: 16px;
+  text-shadow: 0 1px black;
+}
+
+/* line 391, ../src/_jquery.qtip.scss */
+.qtip-tipsy .qtip-titlebar {
+  padding: 6px 35px 0 10;
+  background-color: transparent;
+}
+
+/* line 396, ../src/_jquery.qtip.scss */
+.qtip-tipsy .qtip-content {
+  padding: 6px 10;
+}
+
+/* line 400, ../src/_jquery.qtip.scss */
+.qtip-tipsy .qtip-icon {
+  border-color: #222;
+  text-shadow: none;
+}
+
+/* line 405, ../src/_jquery.qtip.scss */
+.qtip-tipsy .qtip-titlebar .ui-state-hover {
+  border-color: #303030;
+}
+
+/* Tipped style */
+/* line 411, ../src/_jquery.qtip.scss */
+.qtip-tipped {
+  border: 3px solid #959FA9;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #F9F9F9;
+  color: #454545;
+  font-weight: normal;
+  font-family: serif;
+}
+
+/* line 425, ../src/_jquery.qtip.scss */
+.qtip-tipped .qtip-titlebar {
+  border-bottom-width: 0;
+  color: white;
+  background: #3A79B8;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3A79B8), to(#2E629D));
+  background-image: -webkit-linear-gradient(top, #3A79B8, #2E629D);
+  background-image: -moz-linear-gradient(top, #3A79B8, #2E629D);
+  background-image: -ms-linear-gradient(top, #3A79B8, #2E629D);
+  background-image: -o-linear-gradient(top, #3A79B8, #2E629D);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#3A79B8,endColorstr=#2E629D);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#3A79B8,endColorstr=#2E629D)";
+}
+
+/* line 439, ../src/_jquery.qtip.scss */
+.qtip-tipped .qtip-icon {
+  border: 2px solid #285589;
+  background: #285589;
+}
+
+/* line 444, ../src/_jquery.qtip.scss */
+.qtip-tipped .qtip-icon .ui-icon {
+  background-color: #FBFBFB;
+  color: #555;
+}
+
+/**
+ * Twitter Bootstrap style.
+ *
+ * Tested with IE 8, IE 9, Chrome 18, Firefox 9, Opera 11.
+ * Does not work with IE 7.
+ */
+/* line 456, ../src/_jquery.qtip.scss */
+.qtip-bootstrap {
+  /** Taken from Bootstrap body */
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  /** Taken from Bootstrap .popover */
+  padding: 1px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+/* line 478, ../src/_jquery.qtip.scss */
+.qtip-bootstrap .qtip-titlebar {
+  /** Taken from Bootstrap .popover-title */
+  padding: 8px 14px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ebebeb;
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+
+/* line 492, ../src/_jquery.qtip.scss */
+.qtip-bootstrap .qtip-titlebar .qtip-close {
+  /**
+   * Overrides qTip2:
+   * .qtip-titlebar .qtip-close{
+   *   [...]
+   *   right: 4px;
+   *   top: 50%;
+   *   [...]
+   *   border-style: solid;
+   * }
+   */
+  right: 11px;
+  top: 45%;
+  border-style: none;
+}
+
+/* line 508, ../src/_jquery.qtip.scss */
+.qtip-bootstrap .qtip-content {
+  /** Taken from Bootstrap .popover-content */
+  padding: 9px 14px;
+}
+
+/* line 513, ../src/_jquery.qtip.scss */
+.qtip-bootstrap .qtip-icon {
+  /**
+   * Overrides qTip2:
+   * .qtip-default .qtip-icon {
+   *   border-color: #CCC;
+   *   background: #F1F1F1;
+   *   color: #777;
+   * }
+   */
+  background: transparent;
+}
+
+/* line 525, ../src/_jquery.qtip.scss */
+.qtip-bootstrap .qtip-icon .ui-icon {
+  /**
+   * Overrides qTip2:
+   * .qtip-icon .ui-icon{
+   *   width: 18px;
+   *   height: 14px;
+   * }
+   */
+  width: auto;
+  height: auto;
+  /* Taken from Bootstrap .close */
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 18px;
+  color: #000000;
+  text-shadow: 0 1px 0 #ffffff;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+
+/* line 547, ../src/_jquery.qtip.scss */
+.qtip-bootstrap .qtip-icon .ui-icon:hover {
+  /* Taken from Bootstrap .close:hover */
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+
+/* IE9 fix - removes all filters */
+/* line 558, ../src/_jquery.qtip.scss */
+.qtip:not(.ie9haxors) div.qtip-content,
+.qtip:not(.ie9haxors) div.qtip-titlebar {
+  filter: none;
+  -ms-filter: none;
+}
+
+/* line 566, ../src/_jquery.qtip.scss */
+.qtip .qtip-tip {
+  margin: 0 auto;
+  overflow: hidden;
+  z-index: 10;
+}
+
+/* Opera bug #357 - Incorrect tip position
+https://github.com/Craga89/qTip2/issues/367 */
+/* line 575, ../src/_jquery.qtip.scss */
+x:-o-prefocus, .qtip .qtip-tip {
+  visibility: hidden;
+}
+
+/* line 579, ../src/_jquery.qtip.scss */
+.qtip .qtip-tip,
+.qtip .qtip-tip .qtip-vml,
+.qtip .qtip-tip canvas {
+  position: absolute;
+  color: #123456;
+  background: transparent;
+  border: 0 dashed transparent;
+}
+
+/* line 589, ../src/_jquery.qtip.scss */
+.qtip .qtip-tip canvas {
+  top: 0;
+  left: 0;
+}
+
+/* line 591, ../src/_jquery.qtip.scss */
+.qtip .qtip-tip .qtip-vml {
+  behavior: url(#default#VML);
+  display: inline-block;
+  visibility: visible;
+}
+
+/* line 597, ../src/_jquery.qtip.scss */
+#qtip-overlay {
+  position: fixed;
+  left: -10000em;
+  top: -10000em;
+}
+
+/* Applied to modals with show.modal.blur set to true */
+/* line 604, ../src/_jquery.qtip.scss */
+#qtip-overlay.blurs {
+  cursor: pointer;
+}
+
+/* Change opacity of overlay here */
+/* line 607, ../src/_jquery.qtip.scss */
+#qtip-overlay div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+
+/* line 621, ../src/_jquery.qtip.scss */
+.qtipmodal-ie6fix {
+  position: absolute !important;
+}
+
+/* announcement button in lobby */
+/* line 4, ../src/_qtip.scss */
+.announcement-qtip {
+  background-color: #FFF !important;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  color: #7C7C7C !important;
+  min-width: 300px;
+}
+
+/* settings button in lobby */
+/* line 26, ../src/_qtip.scss */
+.tooltip-light {
+  background-color: #ffffff !important;
+  border-color: #dddddd !important;
+  color: #5c5c5c !important;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+/* line 41, ../src/_qtip.scss */
+.beta-qtip h2 {
+  text-align: center;
+}
+
+/* line 45, ../src/_qtip.scss */
+.beta-qtip span.embolden {
+  font-weight: bold;
+}
+
+/* line 49, ../src/_qtip.scss */
+.beta-qtip p {
+  text-align: center;
+}
+
+/* line 53, ../src/_qtip.scss */
+.beta-qtip {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 58, ../src/_qtip.scss */
+.settings-qtip div.menu a, .settings-qtip div.menu a:hover, .settings-qtip div.menu a:active, .settings-qtip div.menu a:visited {
+  color: #5c5c5c;
+}
+
+/* shows notification count in lobby */
+/* line 64, ../src/_qtip.scss */
+.qtip.notifications-tip {
+  background-color: #FF0000;
+  border-color: #FF0000;
+  color: #FFFFFF;
+  border-radius: 3px;
+  font-size: 1.2em;
+  min-width: 0px;
+}
+
+/* line 73, ../src/_qtip.scss */
+.guide-tip a {
+  color: #5c5c5c;
+}
+
+/* line 79, ../src/_qtip.scss */
+.guide-tip .icon.x:before {
+  color: #5c5c5c;
+}
+
+/*
+ * qTip2 - Pretty powerful tooltips - v2.0.1-65-
+ * http://qtip2.com
+ *
+ * Copyright (c) 2013 Craig Michael Thompson
+ * Released under the MIT, GPL licenses
+ * http://jquery.org/license
+ *
+ * Date: Sat Apr 6 2013 07:50 UTC+0000
+ * Plugins: tips modal viewport svg imagemap ie6
+ * Styles: basic css3
+ */
+/* line 13, ../src/_jquery.qtip.scss */
+.qtip {
+  position: absolute;
+  left: -28000px;
+  top: -28000px;
+  display: none;
+  max-width: 320px;
+  min-width: 50px;
+  font-size: 10.5px;
+  line-height: 12px;
+  direction: ltr;
+  box-shadow: none;
+  padding: 0;
+}
+
+/* line 31, ../src/_jquery.qtip.scss */
+.qtip-content {
+  position: relative;
+  padding: 5px 9px;
+  overflow: hidden;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+/* line 40, ../src/_jquery.qtip.scss */
+.qtip-titlebar {
+  position: relative;
+  padding: 5px 35px 5px 10px;
+  overflow: hidden;
+  border-width: 0 0 1px;
+  font-weight: bold;
+}
+
+/* line 49, ../src/_jquery.qtip.scss */
+.qtip-titlebar + .qtip-content {
+  border-top-width: 0 !important;
+}
+
+/* Default close button class */
+/* line 52, ../src/_jquery.qtip.scss */
+.qtip-close {
+  position: absolute;
+  right: -9px;
+  top: -9px;
+  cursor: pointer;
+  outline: medium none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: transparent;
+}
+
+/* line 64, ../src/_jquery.qtip.scss */
+.qtip-titlebar .qtip-close {
+  right: 4px;
+  top: 50%;
+  margin-top: -9px;
+}
+
+/* line 69, ../src/_jquery.qtip.scss */
+* html .qtip-titlebar .qtip-close {
+  top: 16px;
+}
+
+/* IE fix */
+/* line 71, ../src/_jquery.qtip.scss */
+.qtip-titlebar .ui-icon,
+.qtip-icon .ui-icon {
+  display: block;
+  text-indent: -1000em;
+  direction: ltr;
+}
+
+/* line 78, ../src/_jquery.qtip.scss */
+.qtip-icon, .qtip-icon .ui-icon {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  text-decoration: none;
+}
+
+/* line 85, ../src/_jquery.qtip.scss */
+.qtip-icon .ui-icon {
+  width: 18px;
+  height: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-indent: 0;
+  font: normal bold 10px/13px Tahoma,sans-serif;
+  color: inherit;
+  background: transparent none no-repeat -100em -100em;
+}
+
+/* Applied to 'focused' tooltips e.g. most recently displayed/interacted with */
+/* Applied on hover of tooltips i.e. added/removed on mouseenter/mouseleave respectively */
+/* Default tooltip style */
+/* line 105, ../src/_jquery.qtip.scss */
+.qtip-default {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #F1D031;
+  background-color: #FFFFA3;
+  color: #555;
+}
+
+/* line 114, ../src/_jquery.qtip.scss */
+.qtip-default .qtip-titlebar {
+  background-color: #FFEF93;
+}
+
+/* line 118, ../src/_jquery.qtip.scss */
+.qtip-default .qtip-icon {
+  border-color: #CCC;
+  background: #F1F1F1;
+  color: #777;
+}
+
+/* line 124, ../src/_jquery.qtip.scss */
+.qtip-default .qtip-titlebar .qtip-close {
+  border-color: #AAA;
+  color: #111;
+}
+
+/*! Light tooltip style */
+/* line 132, ../src/_jquery.qtip.scss */
+.qtip-light {
+  background-color: white;
+  border-color: #E2E2E2;
+  color: #454545;
+}
+
+/* line 138, ../src/_jquery.qtip.scss */
+.qtip-light .qtip-titlebar {
+  background-color: #f1f1f1;
+}
+
+/*! Dark tooltip style */
+/* line 144, ../src/_jquery.qtip.scss */
+.qtip-dark {
+  background-color: #505050;
+  border-color: #303030;
+  color: #f3f3f3;
+}
+
+/* line 150, ../src/_jquery.qtip.scss */
+.qtip-dark .qtip-titlebar {
+  background-color: #404040;
+}
+
+/* line 154, ../src/_jquery.qtip.scss */
+.qtip-dark .qtip-icon {
+  border-color: #444;
+}
+
+/* line 158, ../src/_jquery.qtip.scss */
+.qtip-dark .qtip-titlebar .ui-state-hover {
+  border-color: #303030;
+}
+
+/*! Cream tooltip style */
+/* line 164, ../src/_jquery.qtip.scss */
+.qtip-cream {
+  background-color: #FBF7AA;
+  border-color: #F9E98E;
+  color: #A27D35;
+}
+
+/* line 170, ../src/_jquery.qtip.scss */
+.qtip-cream .qtip-titlebar {
+  background-color: #F0DE7D;
+}
+
+/* line 174, ../src/_jquery.qtip.scss */
+.qtip-cream .qtip-close .qtip-icon {
+  background-position: -82px 0;
+}
+
+/*! Red tooltip style */
+/* line 180, ../src/_jquery.qtip.scss */
+.qtip-red {
+  background-color: #F78B83;
+  border-color: #D95252;
+  color: #912323;
+}
+
+/* line 186, ../src/_jquery.qtip.scss */
+.qtip-red .qtip-titlebar {
+  background-color: #F06D65;
+}
+
+/* line 190, ../src/_jquery.qtip.scss */
+.qtip-red .qtip-close .qtip-icon {
+  background-position: -102px 0;
+}
+
+/* line 194, ../src/_jquery.qtip.scss */
+.qtip-red .qtip-icon {
+  border-color: #D95252;
+}
+
+/* line 198, ../src/_jquery.qtip.scss */
+.qtip-red .qtip-titlebar .ui-state-hover {
+  border-color: #D95252;
+}
+
+/*! Green tooltip style */
+/* line 204, ../src/_jquery.qtip.scss */
+.qtip-green {
+  background-color: #CAED9E;
+  border-color: #90D93F;
+  color: #3F6219;
+}
+
+/* line 210, ../src/_jquery.qtip.scss */
+.qtip-green .qtip-titlebar {
+  background-color: #B0DE78;
+}
+
+/* line 214, ../src/_jquery.qtip.scss */
+.qtip-green .qtip-close .qtip-icon {
+  background-position: -42px 0;
+}
+
+/*! Blue tooltip style */
+/* line 220, ../src/_jquery.qtip.scss */
+.qtip-blue {
+  background-color: #E5F6FE;
+  border-color: #ADD9ED;
+  color: #5E99BD;
+}
+
+/* line 226, ../src/_jquery.qtip.scss */
+.qtip-blue .qtip-titlebar {
+  background-color: #D0E9F5;
+}
+
+/* line 230, ../src/_jquery.qtip.scss */
+.qtip-blue .qtip-close .qtip-icon {
+  background-position: -2px 0;
+}
+
+/* line 236, ../src/_jquery.qtip.scss */
+.qtip-shadow {
+  -webkit-box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+  box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+}
+
+/* Add rounded corners to your tooltips in: FF3+, Chrome 2+, Opera 10.6+, IE9+, Safari 2+ */
+/* line 243, ../src/_jquery.qtip.scss */
+.qtip-rounded,
+.qtip-tipsy,
+.qtip-bootstrap {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/* line 251, ../src/_jquery.qtip.scss */
+.qtip-rounded .qtip-titlebar {
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+
+/* Youtube tooltip style */
+/* line 258, ../src/_jquery.qtip.scss */
+.qtip-youtube {
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 0 3px #333;
+  -moz-box-shadow: 0 0 3px #333;
+  box-shadow: 0 0 3px #333;
+  color: white;
+  border-width: 0;
+  background: #4A4A4A;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #4A4A4A), color-stop(100%, black));
+  background-image: -webkit-linear-gradient(top, #4A4A4A 0, black 100%);
+  background-image: -moz-linear-gradient(top, #4A4A4A 0, black 100%);
+  background-image: -ms-linear-gradient(top, #4A4A4A 0, black 100%);
+  background-image: -o-linear-gradient(top, #4A4A4A 0, black 100%);
+}
+
+/* line 278, ../src/_jquery.qtip.scss */
+.qtip-youtube .qtip-titlebar {
+  background-color: #4A4A4A;
+  background-color: transparent;
+}
+
+/* line 283, ../src/_jquery.qtip.scss */
+.qtip-youtube .qtip-content {
+  padding: .75em;
+  font: 12px arial,sans-serif;
+  filter: progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#4a4a4a,EndColorStr=#000000);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Gradient(GradientType=0,StartColorStr=#4a4a4a,EndColorStr=#000000);";
+}
+
+/* line 291, ../src/_jquery.qtip.scss */
+.qtip-youtube .qtip-icon {
+  border-color: #222;
+}
+
+/* line 295, ../src/_jquery.qtip.scss */
+.qtip-youtube .qtip-titlebar .ui-state-hover {
+  border-color: #303030;
+}
+
+/* jQuery TOOLS Tooltip style */
+/* line 301, ../src/_jquery.qtip.scss */
+.qtip-jtools {
+  background: #232323;
+  background: rgba(0, 0, 0, 0.7);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#717171), to(#232323));
+  background-image: -moz-linear-gradient(top, #717171, #232323);
+  background-image: -webkit-linear-gradient(top, #717171, #232323);
+  background-image: -ms-linear-gradient(top, #717171, #232323);
+  background-image: -o-linear-gradient(top, #717171, #232323);
+  border: 2px solid #ddd;
+  border: 2px solid #f1f1f1;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 0 12px #333;
+  -moz-box-shadow: 0 0 12px #333;
+  box-shadow: 0 0 12px #333;
+}
+
+/* IE Specific */
+/* line 323, ../src/_jquery.qtip.scss */
+.qtip-jtools .qtip-titlebar {
+  background-color: transparent;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#717171,endColorstr=#4A4A4A);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#717171,endColorstr=#4A4A4A)";
+}
+
+/* line 328, ../src/_jquery.qtip.scss */
+.qtip-jtools .qtip-content {
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#4A4A4A,endColorstr=#232323);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#4A4A4A,endColorstr=#232323)";
+}
+
+/* line 333, ../src/_jquery.qtip.scss */
+.qtip-jtools .qtip-titlebar,
+.qtip-jtools .qtip-content {
+  background: transparent;
+  color: white;
+  border: 0 dashed transparent;
+}
+
+/* line 340, ../src/_jquery.qtip.scss */
+.qtip-jtools .qtip-icon {
+  border-color: #555;
+}
+
+/* line 344, ../src/_jquery.qtip.scss */
+.qtip-jtools .qtip-titlebar .ui-state-hover {
+  border-color: #333;
+}
+
+/* Cluetip style */
+/* line 350, ../src/_jquery.qtip.scss */
+.qtip-cluetip {
+  -webkit-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.4);
+  background-color: #D9D9C2;
+  color: #111;
+  border: 0 dashed transparent;
+}
+
+/* line 360, ../src/_jquery.qtip.scss */
+.qtip-cluetip .qtip-titlebar {
+  background-color: #87876A;
+  color: white;
+  border: 0 dashed transparent;
+}
+
+/* line 366, ../src/_jquery.qtip.scss */
+.qtip-cluetip .qtip-icon {
+  border-color: #808064;
+}
+
+/* line 370, ../src/_jquery.qtip.scss */
+.qtip-cluetip .qtip-titlebar .ui-state-hover {
+  border-color: #696952;
+  color: #696952;
+}
+
+/* Tipsy style */
+/* line 377, ../src/_jquery.qtip.scss */
+.qtip-tipsy {
+  background: black;
+  background: rgba(0, 0, 0, 0.87);
+  color: white;
+  border: 0 solid transparent;
+  font-size: 11px;
+  font-family: 'Lucida Grande', sans-serif;
+  font-weight: bold;
+  line-height: 16px;
+  text-shadow: 0 1px black;
+}
+
+/* line 391, ../src/_jquery.qtip.scss */
+.qtip-tipsy .qtip-titlebar {
+  padding: 6px 35px 0 10;
+  background-color: transparent;
+}
+
+/* line 396, ../src/_jquery.qtip.scss */
+.qtip-tipsy .qtip-content {
+  padding: 6px 10;
+}
+
+/* line 400, ../src/_jquery.qtip.scss */
+.qtip-tipsy .qtip-icon {
+  border-color: #222;
+  text-shadow: none;
+}
+
+/* line 405, ../src/_jquery.qtip.scss */
+.qtip-tipsy .qtip-titlebar .ui-state-hover {
+  border-color: #303030;
+}
+
+/* Tipped style */
+/* line 411, ../src/_jquery.qtip.scss */
+.qtip-tipped {
+  border: 3px solid #959FA9;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  background-color: #F9F9F9;
+  color: #454545;
+  font-weight: normal;
+  font-family: serif;
+}
+
+/* line 425, ../src/_jquery.qtip.scss */
+.qtip-tipped .qtip-titlebar {
+  border-bottom-width: 0;
+  color: white;
+  background: #3A79B8;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3A79B8), to(#2E629D));
+  background-image: -webkit-linear-gradient(top, #3A79B8, #2E629D);
+  background-image: -moz-linear-gradient(top, #3A79B8, #2E629D);
+  background-image: -ms-linear-gradient(top, #3A79B8, #2E629D);
+  background-image: -o-linear-gradient(top, #3A79B8, #2E629D);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#3A79B8,endColorstr=#2E629D);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#3A79B8,endColorstr=#2E629D)";
+}
+
+/* line 439, ../src/_jquery.qtip.scss */
+.qtip-tipped .qtip-icon {
+  border: 2px solid #285589;
+  background: #285589;
+}
+
+/* line 444, ../src/_jquery.qtip.scss */
+.qtip-tipped .qtip-icon .ui-icon {
+  background-color: #FBFBFB;
+  color: #555;
+}
+
+/**
+ * Twitter Bootstrap style.
+ *
+ * Tested with IE 8, IE 9, Chrome 18, Firefox 9, Opera 11.
+ * Does not work with IE 7.
+ */
+/* line 456, ../src/_jquery.qtip.scss */
+.qtip-bootstrap {
+  /** Taken from Bootstrap body */
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+  /** Taken from Bootstrap .popover */
+  padding: 1px;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+/* line 478, ../src/_jquery.qtip.scss */
+.qtip-bootstrap .qtip-titlebar {
+  /** Taken from Bootstrap .popover-title */
+  padding: 8px 14px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 18px;
+  background-color: #f7f7f7;
+  border-bottom: 1px solid #ebebeb;
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+}
+
+/* line 492, ../src/_jquery.qtip.scss */
+.qtip-bootstrap .qtip-titlebar .qtip-close {
+  /**
+   * Overrides qTip2:
+   * .qtip-titlebar .qtip-close{
+   *   [...]
+   *   right: 4px;
+   *   top: 50%;
+   *   [...]
+   *   border-style: solid;
+   * }
+   */
+  right: 11px;
+  top: 45%;
+  border-style: none;
+}
+
+/* line 508, ../src/_jquery.qtip.scss */
+.qtip-bootstrap .qtip-content {
+  /** Taken from Bootstrap .popover-content */
+  padding: 9px 14px;
+}
+
+/* line 513, ../src/_jquery.qtip.scss */
+.qtip-bootstrap .qtip-icon {
+  /**
+   * Overrides qTip2:
+   * .qtip-default .qtip-icon {
+   *   border-color: #CCC;
+   *   background: #F1F1F1;
+   *   color: #777;
+   * }
+   */
+  background: transparent;
+}
+
+/* line 525, ../src/_jquery.qtip.scss */
+.qtip-bootstrap .qtip-icon .ui-icon {
+  /**
+   * Overrides qTip2:
+   * .qtip-icon .ui-icon{
+   *   width: 18px;
+   *   height: 14px;
+   * }
+   */
+  width: auto;
+  height: auto;
+  /* Taken from Bootstrap .close */
+  float: right;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 18px;
+  color: #000000;
+  text-shadow: 0 1px 0 #ffffff;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+}
+
+/* line 547, ../src/_jquery.qtip.scss */
+.qtip-bootstrap .qtip-icon .ui-icon:hover {
+  /* Taken from Bootstrap .close:hover */
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
+
+/* IE9 fix - removes all filters */
+/* line 558, ../src/_jquery.qtip.scss */
+.qtip:not(.ie9haxors) div.qtip-content,
+.qtip:not(.ie9haxors) div.qtip-titlebar {
+  filter: none;
+  -ms-filter: none;
+}
+
+/* line 566, ../src/_jquery.qtip.scss */
+.qtip .qtip-tip {
+  margin: 0 auto;
+  overflow: hidden;
+  z-index: 10;
+}
+
+/* Opera bug #357 - Incorrect tip position
+https://github.com/Craga89/qTip2/issues/367 */
+/* line 575, ../src/_jquery.qtip.scss */
+x:-o-prefocus, .qtip .qtip-tip {
+  visibility: hidden;
+}
+
+/* line 579, ../src/_jquery.qtip.scss */
+.qtip .qtip-tip,
+.qtip .qtip-tip .qtip-vml,
+.qtip .qtip-tip canvas {
+  position: absolute;
+  color: #123456;
+  background: transparent;
+  border: 0 dashed transparent;
+}
+
+/* line 589, ../src/_jquery.qtip.scss */
+.qtip .qtip-tip canvas {
+  top: 0;
+  left: 0;
+}
+
+/* line 591, ../src/_jquery.qtip.scss */
+.qtip .qtip-tip .qtip-vml {
+  behavior: url(#default#VML);
+  display: inline-block;
+  visibility: visible;
+}
+
+/* line 597, ../src/_jquery.qtip.scss */
+#qtip-overlay {
+  position: fixed;
+  left: -10000em;
+  top: -10000em;
+}
+
+/* Applied to modals with show.modal.blur set to true */
+/* line 604, ../src/_jquery.qtip.scss */
+#qtip-overlay.blurs {
+  cursor: pointer;
+}
+
+/* Change opacity of overlay here */
+/* line 607, ../src/_jquery.qtip.scss */
+#qtip-overlay div {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+}
+
+/* line 621, ../src/_jquery.qtip.scss */
+.qtipmodal-ie6fix {
+  position: absolute !important;
+}
+
+/* announcement button in lobby */
+/* line 4, ../src/_qtip.scss */
+.announcement-qtip {
+  background-color: #FFF !important;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  *border-right-width: 2px;
+  *border-bottom-width: 2px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+  color: #7C7C7C !important;
+  min-width: 300px;
+}
+
+/* settings button in lobby */
+/* line 26, ../src/_qtip.scss */
+.tooltip-light {
+  background-color: #ffffff !important;
+  border-color: #dddddd !important;
+  color: #5c5c5c !important;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding;
+  background-clip: padding-box;
+}
+
+/* line 41, ../src/_qtip.scss */
+.beta-qtip h2 {
+  text-align: center;
+}
+
+/* line 45, ../src/_qtip.scss */
+.beta-qtip span.embolden {
+  font-weight: bold;
+}
+
+/* line 49, ../src/_qtip.scss */
+.beta-qtip p {
+  text-align: center;
+}
+
+/* line 53, ../src/_qtip.scss */
+.beta-qtip {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* line 58, ../src/_qtip.scss */
+.settings-qtip div.menu a, .settings-qtip div.menu a:hover, .settings-qtip div.menu a:active, .settings-qtip div.menu a:visited {
+  color: #5c5c5c;
+}
+
+/* shows notification count in lobby */
+/* line 64, ../src/_qtip.scss */
+.qtip.notifications-tip {
+  background-color: #FF0000;
+  border-color: #FF0000;
+  color: #FFFFFF;
+  border-radius: 3px;
+  font-size: 1.2em;
+  min-width: 0px;
+}
+
+/* line 73, ../src/_qtip.scss */
+.guide-tip a {
+  color: #5c5c5c;
+}
+
+/* line 79, ../src/_qtip.scss */
+.guide-tip .icon.x:before {
+  color: #5c5c5c;
+}
+
+/* line 1, ../src/_fullscreen.scss */
+.fullscreen_alert button {
+  text-align: center;
+  color: white;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  text-decoration: none;
+  font-family: inherit;
+  font-weight: inherit;
+  background: #6ECFB1;
+  padding: 4px 8px;
+  margin-left: 10px;
+  border: 0;
+  -webkit-appearance: none;
+}
+
+/* line 19, ../src/_fullscreen.scss */
+.fullscreen .app-styles section {
+  margin-bottom: 0;
+}
+
+/* line 23, ../src/_fullscreen.scss */
+.fullscreen_alert button:hover {
+  background: #0F946B;
+}
+
+/* line 27, ../src/_fullscreen.scss */
+.fullscreen_handle {
+  width: 20px;
+  height: 50px;
+  background: url("../../images/icons/arrow-right2.svg") center 50%;
+  background-size: 75%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: none;
+}
+
+/* line 41, ../src/_fullscreen.scss */
+.embed_controls_fullscreen {
+  background: url("../../images/icons/expand.svg") center 50% no-repeat;
+}
+
+/* line 45, ../src/_fullscreen.scss */
+.fullscreen .embed_controls_fullscreen {
+  background: url("../../images/icons/contract.svg") center 50% no-repeat;
+}
+
+/* line 49, ../src/_fullscreen.scss */
+#control {
+  -webkit-transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: left;
+  -moz-transition-property: left;
+  transition-property: left;
+}
+
+/*** Main Fullscreen block ***/
+/* line 56, ../src/_fullscreen.scss */
+.fullscreen {
+  /*** Dynamic Font-Sizing for WEB and PT ***/
+  /* support VH font-size for dynamically window resizing,
+     fallback support for older browsers  */
+  /* question report support */
+  /* WEB Absolute Layout - NO PT */
+  /*** Panel Absolute Layout Support ***/
+  /* WEB only, not PT */
+  /* PT only, not WEB */
+  /* Both PT and WEB */
+}
+/* line 66, ../src/_fullscreen.scss */
+.fullscreen div[module_id="question"] {
+  /*  rough best fit for changing
+    font-size for X-number of MC,SQ,MQ items */
+  /*  .height-1 ... .height-15 */
+}
+/* line 67, ../src/_fullscreen.scss */
+.fullscreen div[module_id="question"] #question_body {
+  font-size: 20px;
+  font-size: 3.5vh;
+}
+/* line 72, ../src/_fullscreen.scss */
+.fullscreen div[module_id="question"] .has_image {
+  font-size: 18px;
+  font-size: 3vh;
+}
+/* line 77, ../src/_fullscreen.scss */
+.fullscreen div[module_id="question"] .question_layout_side_by_side .question_description .question_image img {
+  height: 150px;
+  height: 20vh;
+}
+/* line 82, ../src/_fullscreen.scss */
+.fullscreen div[module_id="question"] .question_layout_standard .question_image img {
+  height: 150px;
+  height: 20vh;
+}
+/* line 87, ../src/_fullscreen.scss */
+.fullscreen div[module_id="question"] .question_description_content {
+  font-size: 100%;
+}
+/* line 92, ../src/_fullscreen.scss */
+.fullscreen div[module_id="question"] #cId_targets .cot_overview {
+  font-size: 13px;
+}
+/* line 103, ../src/_fullscreen.scss */
+.fullscreen div[module_id="question"] .height-base {
+  font-size: 100%;
+}
+/* line 108, ../src/_fullscreen.scss */
+.fullscreen div[module_id="question"] .height-1 {
+  font-size: 400%;
+}
+/* line 108, ../src/_fullscreen.scss */
+.fullscreen div[module_id="question"] .height-2 {
+  font-size: 200%;
+}
+/* line 108, ../src/_fullscreen.scss */
+.fullscreen div[module_id="question"] .height-3 {
+  font-size: 133.33333%;
+}
+/* line 108, ../src/_fullscreen.scss */
+.fullscreen div[module_id="question"] .height-4 {
+  font-size: 100%;
+}
+/* line 117, ../src/_fullscreen.scss */
+.fullscreen div[module_id="feedback"] #feedback_items {
+  font-size: 17px;
+  font-size: 2.8vh;
+}
+/* line 124, ../src/_fullscreen.scss */
+.fullscreen div[module_id="discussion"] .module_item_content {
+  font-size: 20px;
+  font-size: 3.5vh;
+}
+/* line 129, ../src/_fullscreen.scss */
+.fullscreen div[module_id="discussion"] .discussion-responses {
+  font-size: 90%;
+}
+/* line 133, ../src/_fullscreen.scss */
+.fullscreen div[module_id="discussion"] .discussion-response-meta {
+  font-size: 80%;
+}
+/* line 137, ../src/_fullscreen.scss */
+.fullscreen div[module_id="discussion"] .discussion-topic-meta {
+  font-size: 80%;
+}
+/* line 142, ../src/_fullscreen.scss */
+.fullscreen .not_enabled_instruc {
+  font-size: 80%;
+}
+/* line 146, ../src/_fullscreen.scss */
+.fullscreen .sms_container {
+  font-size: 80%;
+}
+/* line 152, ../src/_fullscreen.scss */
+.fullscreen .brRow {
+  height: 35px;
+  height: 8vh;
+}
+/* line 153, ../src/_fullscreen.scss */
+.fullscreen .report_container {
+  font-size: 18px;
+  font-size: 3vh;
+}
+/* line 160, ../src/_fullscreen.scss */
+.fullscreen #main {
+  /* Quick Sidebar support */
+}
+/* line 161, ../src/_fullscreen.scss */
+.fullscreen #main #footer, .fullscreen #main #nps2 {
+  display: none;
+}
+/* line 166, ../src/_fullscreen.scss */
+.fullscreen #main #region-navbar .navbar {
+  display: none;
+}
+/* line 171, ../src/_fullscreen.scss */
+.fullscreen #main #course_wrapper {
+  width: 100%;
+  height: 100%;
+}
+/* line 173, ../src/_fullscreen.scss */
+.fullscreen #main #wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-top: 0;
+  left: 0;
+  right: 0;
+}
+/* line 182, ../src/_fullscreen.scss */
+.fullscreen #main #region-alerts {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+/* line 191, ../src/_fullscreen.scss */
+.fullscreen #main .fullscreen_handle {
+  display: block;
+}
+/* line 195, ../src/_fullscreen.scss */
+.fullscreen #main #fullscreen_overlay {
+  background-color: white;
+  display: block;
+  position: fixed;
+  width: 23px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 1;
+  -webkit-transition-delay: 0.2s;
+  -moz-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  transition-property: opacity;
+}
+/* line 208, ../src/_fullscreen.scss */
+.fullscreen #main #control {
+  left: -320px;
+  position: fixed;
+  /* Internet explorer will make the control menu scrollable otherwise */
+  z-index: 1000;
+  /* for elements that float above the sidebar */
+}
+/* line 218, ../src/_fullscreen.scss */
+.fullscreen.expand_overlay #main #fullscreen_overlay {
+  opacity: 0;
+  -webkit-transition-delay: 0;
+  -moz-transition-delay: 0;
+  transition-delay: 0;
+}
+/* line 223, ../src/_fullscreen.scss */
+.fullscreen.expand_overlay #main #control {
+  left: 0;
+}
+/* line 229, ../src/_fullscreen.scss */
+.fullscreen .files_content .docviewer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+/* line 236, ../src/_fullscreen.scss */
+.fullscreen .files_content .docviewer .doc {
+  max-height: 100%;
+}
+/* line 245, ../src/_fullscreen.scss */
+.fullscreen #course_content {
+  margin-left: 25px;
+  padding-top: 0;
+  /* height just a lil short of 100% for some padding on top/bottom */
+  /* top-level relative position, sub-elements are absolute */
+}
+/* line 250, ../src/_fullscreen.scss */
+.fullscreen #course_content .panels {
+  padding: 0;
+  height: 97%;
+}
+/* line 256, ../src/_fullscreen.scss */
+.fullscreen #course_content .thm_panel {
+  height: 100%;
+  position: relative;
+}
+/* line 260, ../src/_fullscreen.scss */
+.fullscreen #course_content .thm_panel.thm_panel_hidden {
+  height: auto;
+}
+/* line 268, ../src/_fullscreen.scss */
+.fullscreen.pt #content_page {
+  overflow-x: hidden;
+}
+/* line 271, ../src/_fullscreen.scss */
+.fullscreen.pt #content_page #content {
+  height: 100%;
+}
+/* line 275, ../src/_fullscreen.scss */
+.fullscreen.pt #content_page .panels_list {
+  height: 100%;
+}
+/* line 279, ../src/_fullscreen.scss */
+.fullscreen.pt #content_page .pills_controller {
+  position: absolute;
+}
+/* line 283, ../src/_fullscreen.scss */
+.fullscreen.pt #content_page .panels {
+  position: absolute;
+  top: 40px;
+  bottom: 0px;
+  /* left controlled by pages carousel */
+}
+/* line 290, ../src/_fullscreen.scss */
+.fullscreen.pt #content_page .thm_panel {
+  height: 100%;
+}
+/* line 294, ../src/_fullscreen.scss */
+.fullscreen.pt #content_page .timer {
+  padding: 0;
+  margin: 0;
+}
+/* line 302, ../src/_fullscreen.scss */
+.fullscreen #course_content, .fullscreen.pt #content_page {
+  /* discussion support */
+  /* question support - diff inside pages */
+}
+/* line 304, ../src/_fullscreen.scss */
+.fullscreen #course_content .thm_panel_footer, .fullscreen.pt #content_page .thm_panel_footer {
+  position: absolute;
+  bottom: 0;
+}
+/* line 314, ../src/_fullscreen.scss */
+.fullscreen #course_content div[module_id="question"] .sms_code_instruc,
+.fullscreen #course_content div[module_id="discussion"] .sms_code_instruc, .fullscreen.pt #content_page div[module_id="question"] .sms_code_instruc,
+.fullscreen.pt #content_page div[module_id="discussion"] .sms_code_instruc {
+  padding: 0 10px;
+  margin: 0px;
+  min-height: initial;
+}
+/* line 320, ../src/_fullscreen.scss */
+.fullscreen #course_content div[module_id="question"] .sms_code,
+.fullscreen #course_content div[module_id="discussion"] .sms_code, .fullscreen.pt #content_page div[module_id="question"] .sms_code,
+.fullscreen.pt #content_page div[module_id="discussion"] .sms_code {
+  min-height: initial;
+  padding: 0 0.5em;
+  margin: 0;
+}
+/* line 328, ../src/_fullscreen.scss */
+.fullscreen #course_content div[module_id="feedback"] #feedback_items, .fullscreen.pt #content_page div[module_id="feedback"] #feedback_items {
+  /* centers the magnified feedback items */
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+/* line 339, ../src/_fullscreen.scss */
+.fullscreen #course_content div[module_id="discussion"], .fullscreen.pt #content_page div[module_id="discussion"] {
+  /* fix SMS box to the bottom, does not scroll with content */
+}
+/* line 340, ../src/_fullscreen.scss */
+.fullscreen #course_content div[module_id="discussion"] .discussion-responses, .fullscreen.pt #content_page div[module_id="discussion"] .discussion-responses {
+  overflow-y: auto;
+  max-height: none;
+}
+/* line 345, ../src/_fullscreen.scss */
+.fullscreen #course_content div[module_id="discussion"] .discussion-topic, .fullscreen.pt #content_page div[module_id="discussion"] .discussion-topic {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 50px;
+  bottom: 8vh;
+  overflow: auto;
+}
+/* line 356, ../src/_fullscreen.scss */
+.fullscreen #course_content div[module_id="discussion"] .discussion-sms-wrapper, .fullscreen.pt #content_page div[module_id="discussion"] .discussion-sms-wrapper {
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+  right: 10px;
+  margin: 0;
+  padding: 0;
+  line-height: 50px;
+  line-height: 8vh;
+}
+/* line 371, ../src/_fullscreen.scss */
+.fullscreen #course_content div[module_id="question"], .fullscreen.pt #content_page div[module_id="question"] {
+  /* fix SMS box to the bottom, does not scroll with content */
+  /* fix not enabled msg at bottom */
+  /* question timer support */
+  /* COT support */
+}
+/* line 372, ../src/_fullscreen.scss */
+.fullscreen #course_content div[module_id="question"] .question_container, .fullscreen.pt #content_page div[module_id="question"] .question_container {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  overflow: auto;
+  bottom: 50px;
+  bottom: 8vh;
+  top: 80px;
+}
+/* line 383, ../src/_fullscreen.scss */
+.fullscreen #course_content div[module_id="question"] .sms_container, .fullscreen.pt #content_page div[module_id="question"] .sms_container {
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+  right: 10px;
+  margin: 0;
+  padding: 0;
+  line-height: 50px;
+  line-height: 8vh;
+}
+/* line 396, ../src/_fullscreen.scss */
+.fullscreen #course_content div[module_id="question"] .not_enabled_instruc, .fullscreen.pt #content_page div[module_id="question"] .not_enabled_instruc {
+  position: absolute;
+  bottom: 0px;
+  left: 10px;
+  right: 10px;
+  margin: 0;
+  padding: 0;
+  line-height: 50px;
+  line-height: 8vh;
+}
+/* line 410, ../src/_fullscreen.scss */
+.fullscreen #course_content div[module_id="question"] .has_timer .question_container, .fullscreen.pt #content_page div[module_id="question"] .has_timer .question_container {
+  top: 130px;
+}
+/* line 417, ../src/_fullscreen.scss */
+.fullscreen #course_content div[module_id="question"] #cId_targets .cot_input, .fullscreen.pt #content_page div[module_id="question"] #cId_targets .cot_input {
+  max-height: initial;
+  max-width: initial;
+  min-width: initial;
+  min-height: initial;
+}
+/* line 423, ../src/_fullscreen.scss */
+.fullscreen #course_content div[module_id="question"] #cId_targets .cot_input img, .fullscreen.pt #content_page div[module_id="question"] #cId_targets .cot_input img {
+  width: auto;
+  max-height: 450px;
+  max-height: 50vh;
+  max-width: 800px;
+  max-width: 130vh;
+  min-width: initial;
+  min-height: initial;
+}
+/* line 436, ../src/_fullscreen.scss */
+.fullscreen #course_content .thm_panel_body, .fullscreen.pt #content_page .thm_panel_body {
+  position: absolute;
+  top: 30px;
+  bottom: 60px;
+  /* needed to allow positioning of sms container */
+}
+/* line 441, ../src/_fullscreen.scss */
+.fullscreen #course_content .thm_panel_body.magnified, .fullscreen.pt #content_page .thm_panel_body.magnified {
+  float: left;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+/* line 447, ../src/_fullscreen.scss */
+.fullscreen #course_content .thm_panel_body .ui-tabs .ui-tabs-nav, .fullscreen.pt #content_page .thm_panel_body .ui-tabs .ui-tabs-nav {
+  padding: 0;
+  margin: 0;
+}
+/* line 450, ../src/_fullscreen.scss */
+.fullscreen #course_content .thm_panel_body .ui-tabs .ui-tabs-panel, .fullscreen.pt #content_page .thm_panel_body .ui-tabs .ui-tabs-panel {
+  position: static;
+}

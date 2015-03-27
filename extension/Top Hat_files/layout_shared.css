@@ -1,0 +1,319 @@
+body {
+	font-size: 12px;
+	font-family: Helvetica, Arial, sans;
+}
+
+.ui-dialog .ui-dialog-titlebar-close {
+    display: none;
+}
+
+/* Fancy button */
+a.fancy_button {
+    -moz-box-shadow:inset 0px 1px 0px 0px #e6e6e6;
+    -webkit-box-shadow:inset 0px 1px 0px 0px #e6e6e6;
+    box-shadow:inset 0px 1px 0px 0px #e6e6e6;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f0f0f0), color-stop(1, #cfcfcf) );
+    background:-moz-linear-gradient( center top, #f0f0f0 5%, #cfcfcf 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#cfcfcf');
+    background-color:#f0f0f0;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    border-radius:6px;
+    border:1px solid #bababa;
+    display:inline-block;
+    color:#777777;
+    font-family:arial;
+    font-size:12px;
+    font-weight:bold;
+    padding:4px 6px;
+    text-decoration:none;
+    text-shadow:1px 1px 0px #f2f2f2;
+    white-space:nowrap;
+}
+a.fancy_button:hover {
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #cfcfcf), color-stop(1, #f0f0f0) );
+    background:-moz-linear-gradient( center top, #cfcfcf 5%, #f0f0f0 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#cfcfcf', endColorstr='#f0f0f0');
+    background-color:#cfcfcf;
+}
+a.fancy_button:active {
+    position:relative;
+    top:1px;
+}
+
+a.fancy_button:visited {
+    color:#777777;
+}
+
+
+/* COURSE INFO MODAL */
+.course-info-modal {
+    font-family: lato, helvetica;
+    font-size: 24px;
+    color: #4A4A4A;
+
+}
+
+.course-info-modal strong
+{
+  font-weight:400;
+}
+
+.course-info-modal i
+{
+   font-style:normal;
+   color:#ef5227;
+}
+
+#course_details_popup.thm_panel .thm_panel_body
+{
+  padding:0px;
+}
+
+.course-info-modal a.close {
+  color: #5c5c5c;
+  font-size: 16px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index:99;
+}
+
+.course-info-modal .header {
+    text-align: center;
+    margin-bottom: 45px;
+    font-weight: 300;
+}
+
+.course-info-modal .sections {
+    width: 100%;
+}
+
+/** Left column **/
+
+.course-info-modal .sections .left {
+
+    margin-left: 40px;
+    height: 400px;
+
+}
+
+.course-info-modal .description
+{
+  display:inline-block;
+
+}
+
+.course-info-modal div.icon
+{
+  display:inline-block;
+  vertical-align:20px;
+  width:60px;
+  color:#cccccc;
+
+}
+
+.course-info-modal div.icon:before
+{
+  font-size:50px;
+}
+
+
+.course-info-modal .left .sms-info, 
+.course-info-modal .left .url-info {
+    margin-bottom: 45px;
+}
+
+.course-info-modal h2.section-title
+{
+  font-size:30px;
+  padding-top:20px;
+  padding-bottom:30px;
+  font-weight:400;
+  text-align:center;
+  margin:0px;
+}
+
+.course-info-modal .url-info h3, 
+.course-info-modal .sms-info h3, 
+.course-info-modal .mobile-info h3, 
+.course-info-modal .right h3 {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 2px;
+    margin-top: 0px;
+}
+
+.course-info-modal .url-info p, 
+.course-info-modal .sms-info p, 
+.course-info-modal .mobile-info p {
+    margin-top: 0;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 5px;
+    color:#717171;
+}
+
+.course-info-modal .right p
+{
+  color:#5c5c5c;
+  font-size:16px;
+  margin-bottom:10px;
+}
+
+
+
+.course-info-modal h4
+{
+  font-weight:300;
+}
+
+.course-info-modal .url-info span.large, 
+.course-info-modal .sms-info span.large {
+  font-size: 36px;
+}
+
+/** url info **/
+
+.course-info-modal .url-info
+{
+  position:relative;
+}
+
+.course-info-modal .url-info .course-code-label
+{
+  position:absolute;
+  right:20px;
+  bottom:-20px;
+  font-size:18px;
+}
+
+
+
+
+/** mobile info **/
+
+.course-info-modal .mobile-info span:before {
+  float: left;
+}
+
+.course-info-modal .apple-store {
+    background-image: url(../../images/edumacation/apple_store.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 42px;
+    width: 143px;
+    display:inline-block;
+    margin-top: 5px;
+
+}
+
+.course-info-modal .google-store {
+    background-image: url(../../images/edumacation/google_store.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 42px;
+    width: 143px;
+    display:inline-block;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+/* Attendance:; right column */
+
+
+.course-info-modal .sections .right {
+
+
+    padding-left: 25px;
+    border-left: 2px dotted #CDCDCD;
+   padding-right: 40px;
+   background:#f1f1f1;
+    height: 584px;
+
+
+}
+
+
+.course-info-modal .take-attendance, .course-info-modal .stop-attendance {
+    text-align: center;
+}
+
+.course-info-modal .take-attendance .n-btn {
+
+    width: 200px;
+    font-weight:300;
+    font-size: 16px;
+    font-family: lato, helvetica;
+    text-align: center;
+}
+
+.course-info-modal .attendance-code {
+    font-size: 150px;
+    line-height:150px;
+}
+
+
+
+.course-info-modal .attendance-percentage {
+    margin-top: 30px;
+}
+
+.course-info-modal .progress-bar-container {
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px; /* border radius */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /* prevents bg color from leaking outside the border */
+  background-color: #a5b0bb; /* layer fill content + color overlay */
+  width: 250px;
+  height: 25px;
+  display:block;
+}
+
+.course-info-modal .progress-bar-fill {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px; /* border radius */
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box; /* prevents bg color from leaking outside the border */
+  background-color: #5db92b; /* layer fill content + color overlay */
+  width: 50px;
+  height: 25px;
+  display:block;
+}
+
+.attendance-sms-help
+{
+  margin-top:30px;
+}
+
+.attendance-sms-help p
+{
+  font-size:20px;
+}
+
+.course-info-modal .stop-attendance .n-btn {
+
+  width: 190px;
+  font-size: 14px;
+  font-weight:300;
+  font-family: lato, helvetica;
+    background:#b65d5d;
+}
+
+.course-info-modal .demagnify-course-info
+{
+  font-size:13px;
+  font-weight:300;
+}
+
+.attendance_navi
+{
+  margin-top:50px;
+}

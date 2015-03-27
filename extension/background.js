@@ -1,6 +1,12 @@
 var recording = false;
 chrome.runtime.onMessage.addListener(function(message,sender,sendResponse){
-  sendResponse({farewell: message });
+  $.post("http://54.175.195.224:3000/chrome", { 
+        'page' : message.page,
+        'event' : "mousedown", 
+        'element' : JSON.stringify(message.element) 
+      }, function (data) {
+    sendResponse(data);
+  }).bind;
 });
 
 //  chrome.runtime.onMessage.addListener(

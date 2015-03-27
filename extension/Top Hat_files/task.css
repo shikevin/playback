@@ -1,0 +1,71 @@
+/* ======================= longtask START ======================= */
+
+.longtask .task_progress {
+    display: inline-block;
+    width: 100%;
+     -webkit-border-radius:3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-top: 8px;
+
+    background: #c2cacf;
+
+    overflow: hidden;
+    position: relative; /* required for hidden overflow? */
+    white-space: nowrap;
+}
+
+.longtask.failed_task .task_progress {
+    background: #CC4141;
+}
+
+.longtask .task_progress_complete {
+    width: 0%;
+    height: 14px;
+
+    background: #9eca51;;
+    -webkit-border-radius:3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+
+}
+
+.longtask .task_result {
+    padding: 3px 5px;
+}
+
+.longtask .task_result span {
+    font-family: tahoma;
+    font-size: 11px;
+    color: #888;
+}
+
+.longtask .task_result span.left {
+    float: left;
+    left:10px;
+}
+.longtask .task_result span.right {
+    float: right;
+}
+
+/* ======================= longtask END ======================= */
+
+/* ================== unknown_length_task START ================== */
+
+.unknown_length_task .task_progress, .unknown_length_task.failed_task .task_progress {
+    background:transparent;
+}
+
+.unknown_length_task.failed_task .task_spinner {
+    background:none;
+}
+
+.unknown_length_task .task_spinner {
+    width: 16px;
+    height: 16px;
+    background: url(../../images/edumacation/spinner.gif) center no-repeat;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* =================== unknown_length_task END =================== */

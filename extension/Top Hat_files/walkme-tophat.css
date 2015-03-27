@@ -1,0 +1,157 @@
+.walkme-survey-submit-button {
+    padding :5px 17px !important;
+}
+
+.walkme-thanks-for-feedback-balloon {
+    height : 197px !important;
+}
+
+.walkmecustomsurveryrateit {
+    display: -moz-inline-box;
+    display: inline-block;
+    position: relative;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.walkmecustomsurveryrateit .walkmecustomsurveryrateit-range
+{
+    position: relative;
+    display: -moz-inline-box;
+    display: inline-block;
+    background: url(star.png);
+    height: 17px;
+    outline: none;
+}
+
+.walkmecustomsurveryrateit .walkmecustomsurveryrateit-range * {
+    display:block;
+}
+
+/* for IE 6 */
+* html .walkmecustomsurveryrateit, * html .walkmecustomsurveryrateit .walkmecustomsurveryrateit-range
+{
+    display: inline;
+}
+
+/* for IE 7 */
+* + html .walkmecustomsurveryrateit, * + html .walkmecustomsurveryrateit .walkmecustomsurveryrateit-range
+{
+    display: inline;
+}
+
+.walkmecustomsurveryrateit .walkmecustomsurveryrateit-hover, .walkmecustomsurveryrateit .walkmecustomsurveryrateit-selected
+{
+    position: absolute;
+    left: 0px;
+}
+
+.walkmecustomsurveryrateit .walkmecustomsurveryrateit-hover-rtl, .walkmecustomsurveryrateit .walkmecustomsurveryrateit-selected-rtl
+{
+    left: auto;
+    right: 0px;
+}
+
+.walkmecustomsurveryrateit .walkmecustomsurveryrateit-hover
+{
+    background: url(star.png) left -34px;
+}
+
+.walkmecustomsurveryrateit .walkmecustomsurveryrateit-hover-rtl
+{
+    background-position: right -34px;
+}
+
+.walkmecustomsurveryrateit .walkmecustomsurveryrateit-selected
+{
+    background: url(star.png) left -17px;
+}
+
+.walkmecustomsurveryrateit .walkmecustomsurveryrateit-selected-rtl
+{
+    background-position: right -17px;
+}
+
+.walkmecustomsurveryrateit .walkmecustomsurveryrateit-preset
+{
+    background: url(star.png) left -51px;
+}
+
+.walkmecustomsurveryrateit .walkmecustomsurveryrateit-preset-rtl
+{
+    background: url(star.png) left -51px;
+}
+
+.walkmecustomsurveryrateit button.walkmecustomsurveryrateit-reset
+{
+    background: url(delete.png) 0 0;
+    width: 22px;
+    height: 17px;
+    display: -moz-inline-box;
+    display: inline-block;
+    float: left;
+    outline: none;
+    border:none;
+    padding: 0;
+}
+
+.walkmecustomsurveryrateit button.walkmecustomsurveryrateit-reset:hover, .walkmecustomsurveryrateit button.walkmecustomsurveryrateit-reset:focus
+{
+    background-position: 0 -17px;
+}
+
+.walkme-css-reset {
+    padding: 0 !important;
+	margin: 0 !important;
+	vertical-align: middle !important;
+	border-collapse: inherit !important;
+	background: none !important;
+	border-spacing: 1px 1px !important;
+	line-height: normal !important;
+	border-top: none !important;
+	border-right: none !important;
+	border-bottom: none !important;
+	border-left: none !important;
+	text-shadow: none !important;
+    overflow: visible !important;
+	table-layout: auto !important;
+	
+	width: auto;
+	height: auto;
+}
+textarea.walkme-survey-input-text {
+	border: 1px solid #cdcccb !important;
+	width:230px !important;
+	height:105px !important;
+	text-align:left !important;
+	display: block !important;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	resize:none !important;	
+	overflow: auto !important;
+    color: black !important;
+    background-color: white !important;
+    margin-top: 3px !important;
+    margin-bottom: 3px !important;
+    border-radius: 5px !important;
+    padding: 4px !important;
+    -webkit-box-shadow: inset 0px 10px 12px -12px #000000 !important;
+       -moz-box-shadow: inset 0px 10px 12px -12px #000000 !important;
+            box-shadow: inset 0px 10px 12px -12px #000000 !important;
+}
+
+.walkmecustomsurveryrateit {
+    margin-left: auto;
+    margin-right: auto;
+    width: 108px;
+    display: block !important;
+}
+
+.walkme-thanks-for-feedback {
+    float:right;
+}

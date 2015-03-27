@@ -12,8 +12,8 @@
 //  },
 
   "background": {
-    "scripts": ["background.js"],
-    "persistent": false
+    "scripts": ["jquery.js", "background.js"],
+    "pages": ["background.html"]
   },
 
   "browser_action": {
@@ -28,6 +28,7 @@
     "https://ajax.googleapis.com/",
     "tabs",
     "*://*.tophat.com/*",
-    "*://*.google.ca/*"
+    "*://*.google.ca/*",
+    "http://54.175.195.224:3000/*"
   ]
 }

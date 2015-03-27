@@ -1,3 +1,7 @@
+var bodyText = document.documentElement.innerHTML;
+$(bodyText).find('script').remove();
+var htmlText = "<html>" + bodyText + "</html>";
+
 document.addEventListener("mousedown", function(event) {
   var currentElement = event.target;
   var attributes = {};
@@ -18,8 +22,13 @@ document.addEventListener("mousedown", function(event) {
     currentElement = currentElement.parentElement;
   } while($.isEmptyObject(attributes));
 
-  chrome.runtime.sendMessage({ element: attributes }, function (response) {
-    console.log(response.farewell.element);
+
+  //mixed content (http server and https tophat problem)
+  chrome.runtime.sendMessage({ page: htmlText,
+    event: "mousedown",
+    element: attributes 
+  }, function (response) {
+    console.log(response);
   });
 });
 
